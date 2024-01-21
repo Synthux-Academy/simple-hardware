@@ -1,0 +1,93 @@
+(footprint "Panel Simple Footprint" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (tags "synthux")
+  (attr through_hole)
+  (fp_text reference "S1" (at 0.27 -5.29) (layer "F.SilkS") hide
+      (effects (font (size 1.143 1.143) (thickness 0.152)) (justify left))
+    (tstamp c446ea81-52d3-45cd-987a-588172881194)
+  )
+  (fp_text value "simple" (at 5.3 -4.29) (layer "F.Fab") hide
+      (effects (font (size 1.143 1.143) (thickness 0.152)) (justify left))
+    (tstamp ded38aeb-6502-4a32-a6e4-79794e57833f)
+  )
+  (fp_circle (center -5.3 -5.7) (end -4.45 -5.7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "Dwgs.User") (tstamp 291aec0e-53ca-413b-a4b4-4def3cd1218b))
+  (fp_circle (center -2.5 7.5) (end -2 7.5)
+    (stroke (width 0.2) (type default)) (fill none) (layer "Dwgs.User") (tstamp 4bf4f653-3bcb-42b4-a578-9c6b17cd957d))
+  (fp_circle (center 0 -2.54) (end 0.85 -2.54)
+    (stroke (width 0.12) (type default)) (fill none) (layer "Dwgs.User") (tstamp c71e2199-2ba5-41d9-a56e-21aed88bb635))
+  (fp_circle (center 0 0) (end 0.85 0)
+    (stroke (width 0.12) (type default)) (fill none) (layer "Dwgs.User") (tstamp ed34725c-c0a9-430b-a815-1bdfb6a99f49))
+  (fp_circle (center 0 0) (end 10.665 0)
+    (stroke (width 0.12) (type dot)) (fill none) (layer "Dwgs.User") (tstamp 1a71022c-3e88-4045-bb2a-591c2a10f1d9))
+  (fp_circle (center 0 2.54) (end 0.85 2.54)
+    (stroke (width 0.12) (type default)) (fill none) (layer "Dwgs.User") (tstamp b4198ed8-d73b-4fe8-b89e-e730498fe25c))
+  (fp_circle (center 0 7.5) (end 0.5 7.5)
+    (stroke (width 0.2) (type default)) (fill none) (layer "Dwgs.User") (tstamp c82bcc3e-d20e-4b0c-9fcf-18414ea4067e))
+  (fp_circle (center 2.5 7.5) (end 3 7.5)
+    (stroke (width 0.2) (type default)) (fill none) (layer "Dwgs.User") (tstamp 6acc9483-4146-4108-975b-e7119fd16d10))
+  (fp_circle (center 5.3 -5.7) (end 6.15 -5.7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "Dwgs.User") (tstamp 952b0949-05cb-47c8-8931-6057edaa39e9))
+  (fp_poly
+    (pts
+      (xy -4.45 2.7)
+      (xy -4.096446 2.346447)
+      (xy -2.32868 4.114213)
+      (xy -2.682233 4.467767)
+    )
+
+    (stroke (width 0.2) (type default)) (fill none) (layer "Dwgs.User") (tstamp 3cabfcf3-d857-4df3-8319-7b655c762533))
+  (fp_poly
+    (pts
+      (xy -4.136437 -3.21667)
+      (xy -2.36867 -4.984437)
+      (xy -1.661563 -4.277331)
+      (xy -3.42933 -2.509563)
+    )
+
+    (stroke (width 0.2) (type default)) (fill none) (layer "Dwgs.User") (tstamp 237ca820-a45c-496a-ac42-6ad47e30bc2e))
+  (fp_poly
+    (pts
+      (xy 2.509563 3.42933)
+      (xy 4.27733 1.661563)
+      (xy 4.984437 2.368669)
+      (xy 3.21667 4.136437)
+    )
+
+    (stroke (width 0.2) (type default)) (fill none) (layer "Dwgs.User") (tstamp bd0ee01b-831a-4162-b2c4-9584fde98a9a))
+  (fp_poly
+    (pts
+      (xy 3.037107 -1.26934)
+      (xy 1.269339 -3.037106)
+      (xy 1.622893 -3.39066)
+      (xy 3.390661 -1.622893)
+    )
+
+    (stroke (width 0.2) (type default)) (fill none) (layer "Dwgs.User") (tstamp 659757c7-e57d-426a-99c3-0bb4bc18825f))
+  (fp_poly
+    (pts
+      (xy -4.75 -0.6)
+      (xy -4.75 -1.05)
+      (xy -3.75 -1.05)
+      (xy -3.75 1.05)
+      (xy -4.75 1.05)
+      (xy -4.75 0.6)
+      (xy -5.8 0.6)
+      (xy -5.8 -0.6)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 908b6061-08d0-4e03-94a4-2867229e43b4))
+  (fp_poly
+    (pts
+      (xy 4.75 0.6)
+      (xy 4.750003 1.05)
+      (xy 3.75 1.05)
+      (xy 3.75 -1.05)
+      (xy 4.75 -1.049998)
+      (xy 4.75 -0.6)
+      (xy 5.799998 -0.6)
+      (xy 5.8 0.6)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 72c374d4-8a07-4cc2-910f-380fa9b920c8))
+)
