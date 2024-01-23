@@ -1,0 +1,3 @@
+[submodule "simple-midi/hardware/models"]
+	path = simple-midi/hardware/models
+	url = https://github.com/soundslikefrank/kicad-models.git
